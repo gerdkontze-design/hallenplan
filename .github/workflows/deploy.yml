@@ -31,7 +31,7 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm install --no-package-lock
+        run: npm install --no-package-lock --no-optional
 
       - name: Build
         run: npm run build
